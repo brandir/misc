@@ -3,9 +3,9 @@ OSI Layers
 7 Application
 6 Presentation
 5 Session
-4 Transport
-3 Network
-2 Data Link
-1 Physical
+4 Transport   Segments (TCP) | Datagram (UDP)
+3 Network     Packets (IP)
+2 Data Link   Frames
+1 Physical    Bits
 
 Memo: 'Please Do Not Throw Sausage Pizza Away'
