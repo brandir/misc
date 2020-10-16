@@ -1,3 +1,22 @@
+Mastering VIM - Tips (from Damian Conway)
+
+:help PATTERN               # also :h
+:helpgrep PATTERN => :cnext, :cprev, :cnfile, :cpfile
+
+:vimgrep /PATTERN/ FILES... # like a Unix grep
+
+- Within help files, anything highlighted specially like so:
+    Within help files, anything in vertical bars is a hyperlink
+- When cursor within bars, CTRL-] to jump to that topic
+- At any time, hit CTRL-T to back out of the stack of jumps
+- Type ZZ or :q to get out of help
+
+
+
+
+
+===========================================================================================================================
+
 Setting up vim for Go.
 
 -1- Use a recent version of vim
@@ -66,3 +85,5 @@ drwxr-xr-x  2 elrond elrond   4096 Sep 14 17:23 syntax
 drwxr-xr-x  2 elrond elrond   4096 Sep 14 17:23 templates
 drwxr-xr-x  2 elrond elrond   4096 Sep 14 17:23 test
 -rw-r--r--  1 elrond elrond    158 Sep 14 17:23 .vintrc.yaml
+
+===========================================================================================================================
